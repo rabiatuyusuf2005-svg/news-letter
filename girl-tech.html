@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girl Develop It</title>
+    <style>
+        * { 
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(216, 218, 218);
+        }
+        .logo{
+            background-color: rgb(253, 253, 252);
+            border-radius: 10px;
+            padding: 5%;
+
+
+        }
+        header{
+            text-align: center;
+        }
+        .container{
+            display: inline-block;
+            background-color: rgb(247, 3, 3);
+            color: aliceblue;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        h3{
+            color: red;
+        }
+        .container1{
+            display: right;
+            padding: 10px;
+            background-color: rgb(238, 144, 144);
+            width: auto;
+            float: right;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        table{
+            border: rgb(238, 144, 144);
+        }
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea{
+            background-color: rgb(245, 196, 196);
+            border: 1px solid red;
+            border-radius: 5px;
+        }
+        button{
+            font-size: 18px;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+        }
+        footer hr{
+            border: 1px solid red;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="logo">
+        <header>
+            <div class="container">
+                <h1>Girl Develop It</h1>
+                <p><i>dont be shy develop it</i></p>
+            </div>
+        </header>
+        <h3>About</h3>
+        <p>Girl Develop It is a nonprofit organization that offers coding classes for women. 
+            <b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</b>
+             Corporis quaerat nemo earum fugiat aliquam repellendus velit incidunt pariatur. 
+             Aliquid autem odit corporis.
+             <u>Eum quae, alias quas in officiis provident obcaecati.</u></p>
+             
+        
+        <div class="right-column">
+            <div class="container1">
+                <h3>Projects</h3>
+                <ul>
+                    <li>USA</li>
+                    <ul>
+                        <li><a href="https://www.NewYork.com/" target="_blank">New York</a></li>
+                        <li><a href="https://www.Columbus.com/" target="_blank">Columbus</a></li>
+                        <li><a href="https://www.Austin.com/" target="_blank">Austin</a></li>
+                        <li><a href="https://www.Philly.com/" target="_blank">Philly</a></li>
+                    </ul>
+                <li>World</li>
+                    <ul>
+                        <li><a href="https://www.Ottawa.com/" target="_blank">Ottawa</a></li>
+                        <li><a href="https://www.Sydney.com/" target="_blank">Sydney</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <div class="left-column">
+            <h3>Upcoming Classes</h3>
+            <table border="1">
+                <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Topic</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>New York</td>
+                    <td>JavaScript & JQuery</td>
+                </tr>
+                
+                <tr>
+                    <td>New York</td>
+                    <td>HTML & CSS</td>
+                </tr>
+                </tbody>
+            </table>
+            <h3>Sign Up!</h3>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="radio">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <button type="submit">Sign Up!</button>
+        </form>
+        </div>
+
+
+    <footer>
+        <center>
+        <a href="https://www.twitter.com/" target="_blank">Twitter</a> 
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a> 
+        <a href="https://www.Flickr.com/" target="_blank">Flickr</a>
+            </center>
+        <hr>
+    </footer>
+
+       
+
+    </div>
+</body>
+</html>
